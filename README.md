@@ -80,3 +80,6 @@ Paul is configured as follows:
 
 >[!IMPORTANT]
 >Pay attention to upper and lower case for names and keys in the urls above, they have to exactly match the entries in your auth.json
+
+## Updating the auth.json
+You can edit the ```auth/auth.json``` without a problem while the system is running. When done editing and saved simply run the ```./update.sh``` command so the new auth.json gets copied into the running container. No need for restarts.
