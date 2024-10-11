@@ -1,0 +1,30 @@
+{
+    "publish": [
+         {  
+	    "name": "Paul",
+            "key": "SuperSecretKey" 
+         },
+	 {  "name": "Anna",
+	    "key": "AnotherSecretKey"	 
+    ],
+    "play": [
+	{   
+	    "name": "Paul",
+	    "key" : "PlayBackKey"
+	},
+	{
+	    "name": "Anna",
+	    "key" : ""
+	}
+    ],
+    "stream": [
+        {
+            "name": "Paul",
+            "url" : "rtmp://live.twitch.tv/app/live_FOOBAR_TEST"
+        },
+	{
+	    "name": "Paul",
+            "url" : "https://a.upload.youtube.com/FOOBAR_TEST"
+	}
+    ]
+}
