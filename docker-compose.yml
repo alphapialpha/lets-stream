@@ -9,3 +9,5 @@ services:
   auth:
     build: ./auth
     container_name: auth_server
+    volumes:
+      - ./auth/auth.json:/usr/src/app/auth.json

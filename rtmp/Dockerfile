@@ -1,6 +1,6 @@
 FROM tiangolo/nginx-rtmp
 RUN apt update
-RUN apt install -y ffmpeg apache2-utils jq
+RUN apt install -y ffmpeg apache2-utils
 WORKDIR /usr/local/nginx/html/rtmp
 COPY stat.xsl .
 WORKDIR /etc/nginx
