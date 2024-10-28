@@ -82,4 +82,7 @@ Paul is configured as follows:
 >Pay attention to upper and lower case for names and keys in the urls above, they have to exactly match the entries in your auth.json
 
 ## Updating the auth.json
-You can edit the ```auth/auth.json``` without a problem while the system is running. When done editing and saved simply run the ```./update.sh``` command so the new auth.json gets copied into the running container. No need for restarts.
+You can edit the ```auth/auth.json``` without a problem while the system is running. No need to restart the containers.
+>[!IMPORTANT]
+>Don't use editors that create a new file when editing (e.g. vim). This breaks the bind-mount, which is based on inode!
+
